@@ -28,7 +28,7 @@ Envio da requisição POST:
 ## Executar o código
 
 Para rodar o teste, basta navegar até a pasta loads do projeto usando o comando `cd app/backend/scripts/load`, depois disso, rode o comando `k6 run postResearch.js`
-![K6](./assets/print-k6.png)
+![K6](./assets/details-k6.png)
 
 ## Interpretação dos resultados
 ![Resultados](./assets/results-k6.png)

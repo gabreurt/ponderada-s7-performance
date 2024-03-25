@@ -64,3 +64,11 @@ Para rodar o teste, basta navegar até a pasta loads do projeto usando o comando
 `vus_max........................`: Indica o número máximo de VUs usados durante o teste.
 
 Em resumo, os resultados mostram que todas as requisições foram bem-sucedidas, o tempo de resposta das requisições foi dentro dos limites esperados e o comportamento do sistema sob carga parece estar satisfatório.
+
+
+## Tecnologia Utilizada
+K6: O K6 é uma ferramenta de código aberto voltada para testes de carga, stress e desempenho. Ele permite simular o comportamento de centenas ou milhares de usuários interagindo com a sua aplicação por meio de scripts escritos em JavaScript. Com o K6, é possível avaliar o desempenho de endpoints, APIs, websites e serviços web em geral. Ele oferece uma ampla gama de métricas e gráficos para analisar o desempenho da aplicação sob diferentes cargas.
+
+## Conceitos Aprendidos
+Aprendi que Virtual Users são instâncias virtuais que simulam o comportamento de usuários reais interagindo com a aplicação durante um teste de carga. Cada VU executa o script de teste de forma independente, gerando tráfego simulado para a aplicação. No contexto dos testes de performance, as requisições HTTP são enviadas para os endpoints da aplicação a fim de avaliar o tempo de resposta, a taxa de sucesso e outros aspectos relacionados ao desempenho.
+Um Script de Teste é um conjunto de instruções e comandos que definem o comportamento dos Virtual Users durante um teste de carga. Esse script pode incluir a definição de payloads, headers, requisições HTTP e verificações de resposta para avaliar o desempenho da aplicação. No meu teste, teve um payload que continha os dados que precisam ser enviados no post. Após isso, são geradas métricas de performance, que são dados quantitativos que fornecem informações sobre o desempenho da aplicação durante um teste de carga. Essas métricas podem incluir o tempo de resposta das requisições, o número de requisições por segundo, a taxa de erro, entre outras.
